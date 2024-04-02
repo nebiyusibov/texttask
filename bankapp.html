@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let balance = 500
+
+        let userProgramRunning = true
+
+        while (userProgramRunning) {
+            const userInput = prompt('1-medaxil etmek  2-pul cekmek  3-balansi goster  , secmek istediyiniz reqemi daxil edin'
+            )
+            switch (userInput) {
+            case "1":
+                const userInAmount=prompt("meblegi daxil edin")
+                balance+=parseInt(userInAmount)
+                alert(balance);
+                break;
+                
+            case "2":
+                const userPullAmount=prompt("meblegi daxil edin")
+                balance-=parseInt(userPullAmount)
+                alert(balance)
+                break;
+            case "3":
+                alert(balance)
+                break;
+        
+            default:
+                alert('1 ile 4 arasi reqem daxil et')
+                break;
+        }
+        }
+    
+    </script>
+</body>
+
+</html>
