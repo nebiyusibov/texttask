@@ -1,0 +1,38 @@
+html de JS 2 cur tanitilir:internal,external
+JS de console.log() ile neticeni vermek olar.
+
+1)js de 3 cur deyisken movcuddur : let,var,const . let ve var in ferqi ondan ibaretdir ki 2 ferqli "var"a eyni deyisken adi vermek mumkundur lakin "let"de bu mumkun deyil."const"a ise adinnan gorunduyu kimi sabit deyere malik olur.
+
+2)JS de null,number,string,boolean,object,function,underfined ve s. tipleri movcuddur.
+
+3)&& ve , || veya, ! deyil .operatorlari mentiqi operatorladir.
+
+4)3 cur diyaloq qutusu movcuddur: alert() , prompt() ,confirm()
+
+5)3 cur sert operatoru movcuddur:else , if , else if . if sert vermek ucun istifade edilir,eger 1 den cox sertimiz varsa ifden sonra qalan sertler else if de qeyd edilir.else ise verilen sertin eksini bildirmek ucun istofade edilir. serti "ternary" adlanan opertaor vasitesilede vermek mumkender.beleki ternary "?" isaresi vasitesile yazilir.netice ":" isaresi vasitesile verilir.dogrudursa ":" isarsinin solundaki yalnisdirsa sagindaki netice cixarilir. hemcinin bel yazilislarda var:
+ const val1= a ?? b  // a null veya undirfined deyer deyilse her bir halda a goturulur,
+ const val2= a || b  // true dirse a deyilse b goturulur,
+ const val3= a && b  //a  dogrudursa b ni eks halda false qebul edir
+
+6)switch operatoru secme operatoru adlan;r .isleme strukturu if,else isleme strukturu ile eynidir.switch daxilinde case vasitesile verilen deyerler break vasitesile qirilir cunki yalniz netice olaraq biri islmeledir.swich de default else rolunu oynayir.
+
+7)for,while,do-while dovr operatorlaridir. dovr operatorlari tekrarlanmanin qarsini alir.for operatoru 3 hisseden ibaretdir qiymet,şərt ve baslangic qiymetin deyismesi.while operatorunda yalniz sert verilir.do while da neticeni bir defede olsa cixarir.
+dovr de "break" , "continue" ozellikleri vardir. "break" dovru oldugu yerde qirmaq ucun istifade edilir."continue" ise onun eksi davam etdirmek ucun
+
+8)array- bir qutu rolunu oynayir.bir cox metodlari vardir.pop - arrayin sonuncu elementini siler.	
+							push-arrayin sonuna element elave eder
+							unshift-arrayin evveline element elave eder
+							shift-arrayin evvelinden element siler.
+							splice(index)-element elave etmek ve silmek ucun istifade edilir
+							slice- arrayi istenilen yerden bolub yeni bir array yaradir
+							length-arrayin uzunlugudur
+							reverse-arrayin elemntlerini ters cevirir.
+
+
+9)function 2 hisseden ibaret olur:argument ve onun parametri.3 nov function movcuddur declaration,expression,arrow function.
+function decleration:en cox istifade edilen function dur.yazilis formasi:function name(params){} seklindedir.
+function expression:yazilis formasi : const name=function(params){} seklindedir
+arrow function: yazilis formasi : const name=(params) =>{}  arrow functionun console logu istenilen yerde verile biler.
+ "rest" parametri funksiyaya muueyyen sayda elemntleri massiv kimi qebul etmesine imkan verir.
+								
+							
